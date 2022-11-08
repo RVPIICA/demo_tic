@@ -1,6 +1,6 @@
-import HolaMundo from "../components/HolaMundo"
-import Bienvenida from "../components/Bienvenida"
-import HolaMundoNombre from "../components/HolaMundoNombre"
+import HolaMundo from "../components/Home/HolaMundo"
+import Bienvenida from "../components/Home/Bienvenida"
+import HolaMundoNombre from "../components/Home/HolaMundoNombre"
 
 const Home = () => {
     return (
