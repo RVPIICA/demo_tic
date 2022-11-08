@@ -1,5 +1,3 @@
-import { Button } from "react-bootstrap"
-
 const HolaMundoNombre = ({ nombre = '' }) => {
     return (
         <>
