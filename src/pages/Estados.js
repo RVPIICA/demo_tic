@@ -5,7 +5,7 @@ import Operaciones from "../components/Estados/Operaciones"
 
 const Estados = () => {
     return (
-        <Mantenimiento />
+        <Bienvenida />
     )
 }
 
