@@ -34,8 +34,8 @@ const Table = ({ personas, onDelete }) => {
                 personas.map((persona, key) => {
                         return(
                             <tr key={key}>
-                                <td>{persona}</td>
-                                <td><button className="btn btn-primary" onClick={(key) => onDelete(key)}>Eliminar</button></td>
+                                <td>{persona} {key}</td>
+                                <td><button className="btn btn-primary" onClick={() => onDelete(key)}>Eliminar</button></td>
                             </tr>
                         )
                     })
@@ -55,7 +55,8 @@ const Mantenimiento = () => {
 
     const onDeletePersona = (key) => {
         var personasFiltradas = [...personas]
-        personasFiltradas.splice(key, 1)
+        console.log(key)
+        personasFiltradas.splice(key,1)
         setPersonas(personasFiltradas)
     }
 
